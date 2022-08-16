@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ .banner {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(0.25turn, #682cff,#ff245b, #0033ff);
+  color: white;
+ }
+
+ .banner > a {
+  margin: 10px 20px;
+  font-size: 25px;
+  color: white;
+ }
+
+.item {
+  margin: 10px 0 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(103, 202, 255);
+ }
+
+ h2 > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+ }

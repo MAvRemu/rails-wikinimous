@@ -1,0 +1,10 @@
+
+<h2>A new article</h2>
+<!-- app/views/restaurants/new.html.erb -->
+<%= form_for(@article) do |f|%>
+  <%= f.label :title, class: "b"%>
+  <%= f.text_field :title, class: "form-control item", id: "exampleFormControlInput1", placeholder:"title of the new article" %>
+  <%= f.label :content %>
+  <%= f.text_area :content, class: "form-control item", id: "exampleFormControlTextarea1", rows: "5"%>
+  <%= f.submit class: "btn btn-success"%>
+<% end %>
